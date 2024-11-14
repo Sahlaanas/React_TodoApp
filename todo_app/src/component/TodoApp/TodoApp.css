@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: rgb(176 180 187);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todo-container {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    
+  
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ababab;
+    text-align: center;
+}
+
+.input-section{
+    background-color: rgb(221, 226, 235);
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #00000066;
+}
+
+
+.input-section input {
+    border-radius: 5px;
+    border: 1px solid rgb(226,226,226);
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input::placeholder {
+    color : silver;
+}
+
+
+ul { 
+    height: 200px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: None;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: grey;
+    box-shadow: 0 4px 6px #00000066;
+    display: flex;
+    
+}
+
+ul li i {
+    text-align: right;
+    flex : 1;
+    cursor: pointer;
+   
+    
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icon{
+    display: flex;
+    gap: 16px; /* Adjust the gap as needed */
+  }
+  
+
